@@ -1,0 +1,15 @@
+{
+  "skill_name": "thesis-defense-expert",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "帮我准备答辩，我有一篇论文在 thesis.md，项目源码在当前目录",
+      "expected_output": "生成 Defense_Draft.md，包含答辩稿和 PPT 大纲，先询问用户输出格式和分析范围"
+    },
+    {
+      "id": 2,
+      "prompt": "thesis-defense-expert - 论文是 dissertation.pdf，项目在 /home/user/project",
+      "expected_output": "生成 Defense_Draft.md，分析 dissertation.pdf 和指定项目，输出答辩稿+PPT大纲"
+    }
+  ]
+}
